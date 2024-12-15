@@ -1,0 +1,74 @@
+# Configuración de niveles de poder para items
+items:
+  # Armaduras
+  LEATHER_HELMET: 1
+  LEATHER_CHESTPLATE: 1
+  LEATHER_LEGGINGS: 1
+  LEATHER_BOOTS: 1
+
+  CHAINMAIL_HELMET: 1.5
+  CHAINMAIL_CHESTPLATE: 1.5
+  CHAINMAIL_LEGGINGS: 1.5
+  CHAINMAIL_BOOTS: 1.5
+
+  GOLD_HELMET: 2
+  GOLD_CHESTPLATE: 2
+  GOLD_LEGGINGS: 2
+  GOLD_BOOTS: 2
+
+  IRON_HELMET: 2.5
+  IRON_CHESTPLATE: 2.5
+  IRON_LEGGINGS: 2.5
+  IRON_BOOTS: 2.5
+
+  DIAMOND_HELMET: 3
+  DIAMOND_CHESTPLATE: 3
+  DIAMOND_LEGGINGS: 3
+  DIAMOND_BOOTS: 3
+
+  NETHERITE_HELMET: 4
+  NETHERITE_CHESTPLATE: 4
+  NETHERITE_LEGGINGS: 4
+  NETHERITE_BOOTS: 4
+
+
+
+  # Armas
+  WOODEN_SWORD: 1
+  STONE_SWORD: 2
+  GOLDEN_SWORD: 3
+  IRON_SWORD: 4
+  DIAMOND_SWORD: 5
+  NETHERITE_SWORD: 6
+  BOW: 3
+
+  # Herramientas
+  WOODEN_AXE: 1
+  STONE_AXE: 1.5
+  GOLDEN_AXE: 2
+  IRON_AXE: 2.5
+  DIAMOND_AXE: 3
+  NETHERITE_AXE: 4
+
+  # Items especiales
+  TOTEM_OF_UNDYING: 5
+  SHIELD: 2
+  LAVA: 2
+  TNT: 2
+  ENCHANCED_BOOK: 5
+  TRIDENT: 5
+  POTION: 3
+
+# Configuraciones adicionales
+settings:
+  # Máximo nivel actual
+  max_level: 30
+  # Prefijo para mostrar el nivel
+  level_prefix: "&d[lvl]&f"
+  # Mostrar nivel en el nombre personalizado
+  show_custom_name: true
+  # Mostrar nivel en la lista de jugadores
+  show_player_list_name: true
+
+
+  

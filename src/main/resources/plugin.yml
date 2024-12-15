@@ -1,0 +1,30 @@
+name: LevelWarriors
+version: 1.5
+main: vlnw.cherry.LevelWarriors
+api-version: 1.20
+description: Plugin que calcula el nivel de los jugadores basado en sus items
+author: Cherry
+commands:
+  lvlwtop:
+    description: Muestra al jugador con mayor nivel.
+  lvlwinv:
+    description: Muestra el inventario del jugador.
+  lvlwreload:
+    description: Recarga la configuración del plugin.
+  lvlwmaxlevel:
+    description: Muestra el nivel máximo configurado.
+  lvlwsetmaxlevel:
+    description: Cambia el nivel máximo configurado.
+  lvlwadd:
+    description: Añade un ítem a la configuración.
+    usage: /lvlwadd <item> <valor>
+  lvlwedit:
+    description: Edita un ítem existente en la configuración.
+    usage: /lvlwedit <item> <nuevo_valor>
+  lvlwdel:
+    description: Elimina un ítem de la configuración.
+    usage: /lvlwdel <item>
+
+depend:
+  - PlaceholderAPI
+
